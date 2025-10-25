@@ -13,7 +13,7 @@ const app = express();
 // CORS - Allow both local and production frontend
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-frontend-url.vercel.app'] // We'll update this later
+    ? ['https://kovisys-frontend.vercel.app'] // We'll update this later
     : ['http://localhost:5173', 'http://localhost:3000'],
   credentials: true
 };
